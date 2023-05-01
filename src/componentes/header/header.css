@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    background-color: #102e60;
+    
+}
+
+.header__logo {
+    width: 100px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+navbar {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    display: inline;
+    color: #ec707e;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+
+}
