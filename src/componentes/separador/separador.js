@@ -1,8 +1,8 @@
 import "./separador.css"
 
-const Separador = () => {
+const Separador = (props) => {
     return(
-        <h1>Cursos disponibles:</h1>
+        <h1>{props.titulo}</h1>
     )
 }
 
