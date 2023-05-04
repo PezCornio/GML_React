@@ -10,6 +10,8 @@ function App() {
       <Header/>
       <Banner/>
       <Separador titulo="Nuestros cursos:"/>
+      <Separador titulo="Nuestro Staff:"/>
+      <Separador titulo="Contacto:"/>
     </div>
     
     
