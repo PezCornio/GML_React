@@ -1,6 +1,6 @@
-import "./banner.css"
+import "../assets/css/Home.css"
 
-const Banner = () => {
+const Home = () => {
     return(
         <section>
             <div className="banner">
@@ -12,4 +12,4 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default Home

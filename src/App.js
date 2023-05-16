@@ -1,18 +1,23 @@
+import "./assets/css/reset.css"
 import Header from "./componentes/header/header.js"
-import Banner from "./componentes/banner/banner.js"
-import Separador from "./componentes/separador/separador.js";
+import Home from "./pages/Home.jsx";
+import Cursos from "./pages/Cursos.jsx";
 import './App.css';
 import React from "react";
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-      <Header/>
-      <Banner/>
-      <Separador titulo="Nuestros cursos:"/>
-      <Separador titulo="Nuestro Staff:"/>
-      <Separador titulo="Contacto:"/>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/cursos' element={<Cursos />} />
+        
+      </Routes>
+      
+    </Router>
     
     
   );
