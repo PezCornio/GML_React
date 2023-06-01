@@ -2,7 +2,7 @@ import "./cards.cursos.css"
 
 const CardsCursos = () => {
     return (
-        <div>
+        
             
             <div className="card">
                 <img src="/img/Reactlogo3.webp" alt="ReactJs" className="logocursos"/>
@@ -10,7 +10,7 @@ const CardsCursos = () => {
                 <p>Descripcion</p>
                 <p>Precio</p>
             </div>
-        </div>
+        
     )
 }
 

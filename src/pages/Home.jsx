@@ -2,7 +2,7 @@ import "../assets/css/Home.css"
 
 const Home = () => {
     return(
-        <section>
+        <section >
             <div className="banner">
                 
                 <img src="/img/presentacion1.jpg" alt="slide1"/>

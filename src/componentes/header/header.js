@@ -7,7 +7,9 @@ const Header = () => {
 
 
     return (<header>
-        <div className="header"  >
+        <div className="header" style={{ 
+      backgroundImage: `url("./img/low-poly-grid-haikei.svg")` 
+    }} >
         <img src="/img/logogml.png" alt="Logo" className="header__logo"/>
         <navbar>
             <ul>

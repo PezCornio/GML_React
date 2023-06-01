@@ -6,7 +6,7 @@ const Cursos = () => {
     return(
         <div className="container">
             <h1>Cursos disponibles</h1>
-            <div>
+            <div className="cards_container">
             <CardsCursos/>
             </div>
 

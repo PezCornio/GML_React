@@ -2,6 +2,7 @@ import "./assets/css/reset.css"
 import Header from "./componentes/header/header.js"
 import Home from "./pages/Home.jsx";
 import Cursos from "./pages/Cursos.jsx";
+import Footer from "./componentes/footer/footer.js";
 import './App.css';
 import React from "react";
 
@@ -16,7 +17,7 @@ function App() {
         <Route path='/cursos' element={<Cursos />} />
         
       </Routes>
-      
+      <Footer/>
     </Router>
     
     

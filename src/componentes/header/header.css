@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     height: 130px;
-    background-color: #102e60;
+    
     
 }
 
@@ -24,7 +24,7 @@ ul {
 
 li a {
     display: inline;
-    color: #ec707e;
+    color: white;
     text-decoration: none;
     margin: 5px;
     font-weight: bold;
