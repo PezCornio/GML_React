@@ -1,14 +1,17 @@
 import "../assets/css/Home.css"
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 const Home = () => {
     return(
-        <section >
-            <div className="banner">
+        <Container maxWidth="lg">
+            <Box className="banner"
+                >
                 
                 <img src="/img/presentacion1.jpg" alt="slide1"/>
 
-            </div>
-        </section>
+            </Box>
+        </Container>
     )
 }
 

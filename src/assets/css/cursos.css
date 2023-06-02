@@ -1,9 +1,8 @@
 .container {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 39%, rgba(16,46,96,1) 100%);
+    
 }
 
 h1 {
@@ -14,12 +13,12 @@ h1 {
     font-size: 1.4rem;
     padding: 5px;
     box-sizing: border-box;
-    margin-top: 7%;
-    width: 80%;
+  
+    
 }
 
 .cards_container {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
 }

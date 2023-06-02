@@ -1,15 +1,24 @@
-import "./cards.cursos.css"
+import "./cards.cursos.css";
+import Card from '@mui/material/Card';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
 
-const CardsCursos = () => {
+const CardsCursos = (props) => {
     return (
         
             
-            <div className="card">
-                <img src="/img/Reactlogo3.webp" alt="ReactJs" className="logocursos"/>
-                <h3>React Js.</h3>
-                <p>Descripcion</p>
-                <p>Precio</p>
-            </div>
+            <Card className="card">
+                <img src="/img/Reactlogo3.webp" alt="logo react"/>
+                
+            <CardContent>
+            <h3>{props.titulo}</h3>
+            <p>{props.resumen}</p>
+            <p>{props.precio}</p>
+            </CardContent>
+                
+                
+                
+            </Card>
         
     )
 }
