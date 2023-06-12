@@ -1,13 +1,19 @@
-import "./footer.css"
+import "./footer.css";
+import { Layout } from "antd";
+const { Footer } = Layout;
 
-const Footer = () => {
-  return (<footer >
-    <div style={{ 
-      backgroundImage: `url("./img/low-poly-grid-haikei.svg")` 
-    }}></div>
+const FooterGML = () => {
+  return (
+    <Footer 
+    style={{
+      backgroundImage: `url("./img/low-poly-grid-haikei.svg")`,
+    }}
+    className="footer"
+  >
+      
+     
+    </Footer>
+  );
+};
 
-  </footer>)
-    
-}
-
-export default Footer
+export default FooterGML;

@@ -1,18 +1,26 @@
-import "../assets/css/Home.css"
-import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
+import "../assets/css/Home.css";
+import { Carousel } from "antd";
+import { Layout } from "antd";
+const { Content } = Layout;
 
 const Home = () => {
-    return(
-        <Container maxWidth="lg">
-            <Box className="banner"
-                >
-                
-                <img src="/img/presentacion1.jpg" alt="slide1"/>
+  return (
+    <Content >
+      <div className="carousel_container">
+        <Carousel autoplay effect="fade">
+          <div>
+            <img src="/img/presentacion1.jpg" alt="banner1"></img>
+          </div>
+          <div>
+            <img src="/img/presentacion2.jpg" alt="banner2"></img>
+          </div>
+          <div>
+            <img src="/img/presentacion3.jpg" alt="banner3"></img>
+          </div>
+        </Carousel>
+      </div>
+    </Content>
+  );
+};
 
-            </Box>
-        </Container>
-    )
-}
-
-export default Home
+export default Home;

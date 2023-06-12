@@ -1,3 +1,4 @@
-div {
-    height: 100px;
+.footer {
+    height: 13vh;
+    position: sticky;
 }

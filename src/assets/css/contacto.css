@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+.stepper_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}

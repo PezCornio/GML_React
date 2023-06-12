@@ -1,26 +1,30 @@
-import "./assets/css/reset.css"
-import Header from "./componentes/header/header.js"
+import "./assets/css/reset.css";
+import HeaderGML from "./componentes/header/header.js";
 import Home from "./pages/Home.jsx";
 import Cursos from "./pages/Cursos.jsx";
-import Footer from "./componentes/footer/footer.js";
-import './App.css';
+import Contacto from "./pages/Contacto.jsx";
+import FooterGML from "./componentes/footer/footer.js";
+import "./App.css";
 import React from "react";
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/cursos' element={<Cursos />} />
-        
-      </Routes>
-      <Footer/>
-    </Router>
-    
-    
+    <div className="app">
+      
+      <Router>
+        <HeaderGML />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cursos" element={<Cursos />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+
+        <FooterGML />
+      </Router>
+    </div>
   );
 }
 
